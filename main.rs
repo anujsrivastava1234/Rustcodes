@@ -1,3 +1,4 @@
+#[allow(unused_mut)]
 // mod print;
 // mod var;
 // mod types;
@@ -6,7 +7,12 @@
 // mod array;
 // mod vectors;
 // mod conditinals;
-mod loops;
+// mod loops;
+// mod function;
+// mod pointers;
+// mod structs;
+// mod enums;
+mod clive;
 fn main() {
    
     // print::run();
@@ -17,7 +23,11 @@ fn main() {
     // array::run();
     // vectors::run();
     // conditinals::run();
-    loops::run();
+    // loops::run();
+    // function::run();
+    // structs::run();
+    // enums::run();
+    clive::run();
 
 }
 
